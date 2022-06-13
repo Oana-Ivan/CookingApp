@@ -9,6 +9,9 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.CookingApp">
+        <activity android:name=".AddNewRecipeActivity" />
+        <activity android:name=".MostViewedActivity" />
+        <activity android:name=".allRecipes.AllRecipesActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
